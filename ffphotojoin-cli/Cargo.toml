@@ -1,0 +1,12 @@
+[package]
+name = "ffphotojoin-cli"
+description = "A commandline interface for the ffphotojoin Rust library"
+version = "0.1.0"
+authors = ["CJ Burkey <bulletlanguage@gmail.com>"]
+edition = "2018"
+license = "MIT"
+
+[dependencies]
+ffphotojoin = { path = "../" }
+clap = "3.0.0-beta.2"
+shellexpand = "2.1.0"
